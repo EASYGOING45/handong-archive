@@ -1,0 +1,3 @@
+:root { color-scheme: light; }
+html, body { margin: 0; font-family: system-ui, sans-serif; background: #f4ece0; }
+#app { min-height: 100vh; }
