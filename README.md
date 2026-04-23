@@ -15,6 +15,14 @@
 ---
 
 <p align="center">
+  <img src="docs/marketing/assets/hero/promo-square.png" alt="干部人格档案 · 《人民的名义》MBTI 测评" width="640"/>
+</p>
+
+<p align="center">
+  <sub>实际页面预览 ↓</sub>
+</p>
+
+<p align="center">
   <img src="docs/marketing/assets/raw/02_home_full.png" alt="首页" width="48%"/>
   <img src="docs/marketing/assets/raw/05_result_top.png" alt="结果页" width="48%"/>
 </p>
