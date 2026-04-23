@@ -17,7 +17,7 @@
 - [x] 桌面 + 移动源截图共 11 张（`assets/raw/`）
 - [x] 站点 Cloudflare Pages 已部署：<https://handong-archive.pages.dev>
 - [x] 所有文案里的 `[链接]` 已替换为正式域名
-- [ ] **部署后**：重拍分享长图 `assets/raw/09_longimage.png`（当前二维码指向 localhost，不能用）
+- [x] 分享长图 `assets/raw/09_longimage.png` 已用正式域名重拍
 - [ ] 自己完整跑一遍：首页 → 答题 → 结果页 → 生成长图 → 扫码复活
 - [ ] 剪各平台适配封面图（16:9 / 9:16 / 1:1），存 `assets/platform/`
 - [ ] 分享长图里的二维码扫一下确认能打开目标页

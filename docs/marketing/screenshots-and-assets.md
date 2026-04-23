@@ -83,7 +83,7 @@
 - [x] 源截图拍齐，存 `docs/marketing/assets/raw/`（11 张，覆盖桌面+移动）
 - [ ] 适配封面剪好，存 `docs/marketing/assets/platform/`
 - [x] 部署到正式域名：<https://handong-archive.pages.dev>（文案里的 `[链接]` 已替换）
-- [ ] 重拍 `09_longimage.png`（当前的二维码指向 `localhost`，**部署后必须重拍**）
+- [x] `09_longimage.png` 已重拍，二维码指向 `https://handong-archive.pages.dev`
 - [ ] 分享长图里的二维码用手机扫一下能正确跳转结果页
 - [ ] 所有截图里没有开发者工具、调试红框、`localhost` 字样
 - [ ] 没有泄露个人信息（浏览器书签栏、标签页名、系统通知）
