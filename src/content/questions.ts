@@ -9,7 +9,7 @@ export const QUESTIONS: readonly Question[] = [
   { id:  4, text: '我愿意为一件正确的事承担不公平的代价。', dim: 'I', polarity: true  },
   { id:  5, text: '我会优先考虑自己与家人的现实利益。', dim: 'I', polarity: false },
   { id:  6, text: '理想主义者虽然吃亏，但值得尊敬。', dim: 'I', polarity: true  },
-  { id:  7, text: '在这个时代，太讲理想只会拖累自己。', dim: 'I', polarity: false },
+  { id:  7, text: '我见过太多栽在理想上的人，所以学会了给自己留退路。', dim: 'I', polarity: false },
 
   // --- L 维度 (规则坚守 vs 权变灵活) ---
   { id:  8, text: '我会严格按流程办事，哪怕麻烦。', dim: 'L', polarity: true  },
@@ -17,7 +17,7 @@ export const QUESTIONS: readonly Question[] = [
   { id: 10, text: '制度是底线，不能因人而异。', dim: 'L', polarity: true  },
   { id: 11, text: '关键时刻，人情与面子比条文更重要。', dim: 'L', polarity: false },
   { id: 12, text: '我不喜欢打擦边球，哪怕别人都在打。', dim: 'L', polarity: true  },
-  { id: 13, text: '规则是给能力不够的人设的。', dim: 'L', polarity: false },
+  { id: 13, text: '规则是兜底的，真正办事的人知道什么时候绕开。', dim: 'L', polarity: false },
   { id: 14, text: '即使上级暗示可以灵活，我也会按程序走。', dim: 'L', polarity: true  },
   { id: 15, text: '会变通的人比会死读书的人更容易被重用。', dim: 'L', polarity: false },
 
@@ -39,5 +39,5 @@ export const QUESTIONS: readonly Question[] = [
   { id: 28, text: '新机会出现时，我会第一时间扑上去。', dim: 'D', polarity: true  },
   { id: 29, text: '能不改的就不改，大盘稳住比什么都强。', dim: 'D', polarity: false },
   { id: 30, text: '就算风险大，我也会推动变革。', dim: 'D', polarity: true  },
-  { id: 31, text: '到了一定年纪，我只想不出事。', dim: 'D', polarity: false },
+  { id: 31, text: '坐稳了位置，不出事比再往上一步重要。', dim: 'D', polarity: false },
 ];
