@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>档案未归档 · 汉东省人格档案室</title>
+<meta name="description" content="你查找的档案已锁入保险柜——或者，根本就没人填过。">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23f4ece0'/><text y='78' x='50' text-anchor='middle' font-size='80' font-family='serif' fill='%238b2e2e'>档</text></svg>">
+<style>
+  :root {
+    --paper: #f4ece0;
+    --ink: #1d1d1b;
+    --stamp: #8b2e2e;
+    --muted: #6b6657;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Songti SC", "STSong", "Noto Serif CJK SC", "SimSun", serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    line-height: 1.7;
+    background-image:
+      radial-gradient(circle at 10% 20%, rgba(139,46,46,0.04) 0%, transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(29,29,27,0.05) 0%, transparent 45%);
+  }
+  .page {
+    max-width: 520px;
+    width: 100%;
+    border: 2px solid var(--ink);
+    padding: 40px 36px 48px;
+    position: relative;
+    background: var(--paper);
+  }
+  .page::before, .page::after {
+    content: "";
+    position: absolute;
+    width: 24px; height: 24px;
+    border: 2px solid var(--ink);
+  }
+  .page::before { top: -2px; left: -2px; border-right: none; border-bottom: none; }
+  .page::after { bottom: -2px; right: -2px; border-left: none; border-top: none; }
+  .label {
+    font-size: 13px;
+    letter-spacing: 0.4em;
+    color: var(--muted);
+    text-transform: uppercase;
+    border-bottom: 1px dashed var(--muted);
+    padding-bottom: 6px;
+    margin-bottom: 28px;
+  }
+  .code {
+    font-size: 96px;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    margin: 0 0 8px;
+    color: var(--stamp);
+    line-height: 1;
+  }
+  .title {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    letter-spacing: 0.08em;
+  }
+  .body { font-size: 15px; color: var(--muted); margin: 0 0 32px; }
+  .actions { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+  a.btn {
+    display: inline-block;
+    padding: 10px 22px;
+    border: 2px solid var(--stamp);
+    color: var(--stamp);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    background: transparent;
+  }
+  a.btn.primary { background: var(--stamp); color: var(--paper); }
+  a.btn:hover { opacity: 0.8; }
+  .stamp {
+    position: absolute;
+    top: 24px; right: 24px;
+    border: 2px solid var(--stamp);
+    color: var(--stamp);
+    padding: 6px 14px;
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    transform: rotate(6deg);
+  }
+</style>
+</head>
+<body>
+<main class="page">
+  <div class="stamp">查无此档</div>
+  <div class="label">汉东省 · 人格档案室 · 查阅失败</div>
+  <h1 class="code">404</h1>
+  <p class="title">档案未归档</p>
+  <p class="body">
+    你要找的这份档案，可能被锁进了保险柜，也可能从来没人填过。<br>
+    回档案室首页重新立案即可。
+  </p>
+  <div class="actions">
+    <a href="/" class="btn primary">回到首页</a>
+    <a href="/#/q" class="btn">直接填新档</a>
+  </div>
+</main>
+</body>
+</html>
