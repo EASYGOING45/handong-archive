@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://handong-archive.pages.dev/sitemap.xml
