@@ -12,10 +12,11 @@
     "deploy": "wrangler pages deploy dist"
   },
   "devDependencies": {
+    "@types/bun": "latest",
+    "oxlint": "^0.9.0",
     "typescript": "^5.5.0",
     "vite": "^5.4.0",
-    "oxlint": "^0.9.0",
-    "@types/bun": "latest"
+    "wrangler": "^4.84.1"
   },
   "dependencies": {
     "@chenglou/pretext": "latest",
