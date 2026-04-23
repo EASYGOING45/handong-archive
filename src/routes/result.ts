@@ -129,8 +129,8 @@ function row(label: string, value: string): HTMLElement {
 }
 
 function dimBar(leftLabel: string, rightLabel: string, score: number): HTMLElement {
-  // score 范围 -16..+16, 转为 0..100%
-  const pct = ((score + 16) / 32) * 100;
+  // score 范围 -16..+16：正分对应左标签（I/L/C/D），负分对应右标签（R/F/A/P）
+  const pct = ((-score + 16) / 32) * 100;
   return h('div', { className: 'dim-bar' },
     h('span', { className: 'dim-left' }, leftLabel),
     h('div', { className: 'dim-track' },

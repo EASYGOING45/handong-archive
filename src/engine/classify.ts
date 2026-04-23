@@ -12,9 +12,9 @@ const TYPE_TO_CHARACTER: Record<string, CharacterKey> = {
   IFAD: 'ji_changming',
   IFAP: 'zheng_xipo',
   RLCD: 'tian_guofu',
-  RLCP: 'sun_liancheng',
+  RLCP: 'ouyang_jing',
   RLAD: 'li_dakang',
-  RLAP: 'ouyang_jing',
+  RLAP: 'sun_liancheng',
   RFCD: 'cai_chenggong',
   RFCP: 'gao_xiaoqin',
   RFAD: 'qi_tongwei',
@@ -34,7 +34,7 @@ export function classify(scores: Scores): Classification {
     Math.abs(scores.D),
   );
   if (absMax <= LOW_INTENSITY_THRESHOLD) {
-    return { typeCode: 'RLCP', character: 'sun_liancheng' };
+    return { typeCode: 'RLAP', character: 'sun_liancheng' };
   }
   const code =
     (scores.I >= 0 ? 'I' : 'R') +

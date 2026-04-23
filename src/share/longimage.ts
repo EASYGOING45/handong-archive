@@ -201,7 +201,7 @@ export async function composeLongImage(input: LongImageInput): Promise<HTMLCanva
     ctx.lineTo(barX + barW, y);
     ctx.stroke();
 
-    const pct = (bar.score + 16) / 32;
+    const pct = (-bar.score + 16) / 32;
     const mx = barX + pct * barW;
     ctx.fillStyle = STAMP;
     ctx.beginPath();
