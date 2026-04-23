@@ -197,8 +197,8 @@ canvas.toBlob(blob => { /* a.download */ });
 
 这个站从 0 到可分享花了 3 天。所有代码开源、思路开源，欢迎来玩：
 
-- Demo：[链接]
-- 源码：[如需要公开 repo，放这里]
+- Demo：https://handong-archive.pages.dev
+- 源码：https://github.com/EASYGOING45/handong-archive
 
 如果你是剧粉，来测一下；如果你是开发者，来抄一抄"如何做一个不烧钱的小站"的例子。
 

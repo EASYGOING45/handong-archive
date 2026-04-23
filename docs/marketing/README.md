@@ -15,8 +15,8 @@
 
 - [x] 宣发文案 6 份（本目录）
 - [x] 桌面 + 移动源截图共 11 张（`assets/raw/`）
-- [ ] 站点 Cloudflare Pages 已部署，有可分享的正式域名
-- [ ] **部署后**：把所有文案里的 `[链接]` 替换为正式域名（grep 可一键定位）
+- [x] 站点 Cloudflare Pages 已部署：<https://handong-archive.pages.dev>
+- [x] 所有文案里的 `[链接]` 已替换为正式域名
 - [ ] **部署后**：重拍分享长图 `assets/raw/09_longimage.png`（当前二维码指向 localhost，不能用）
 - [ ] 自己完整跑一遍：首页 → 答题 → 结果页 → 生成长图 → 扫码复活
 - [ ] 剪各平台适配封面图（16:9 / 9:16 / 1:1），存 `assets/platform/`
