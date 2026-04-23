@@ -5,3 +5,6 @@ dist
 *.log
 .claude/
 .playwright-mcp/
+.env
+.env.*
+*.env
