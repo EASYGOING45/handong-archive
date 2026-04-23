@@ -15,8 +15,8 @@ const TYPE_TO_CHARACTER: Record<string, CharacterKey> = {
   RLCP: 'ouyang_jing',
   RLAD: 'li_dakang',
   RLAP: 'sun_liancheng',
-  RFCD: 'cai_chenggong',
-  RFCP: 'gao_xiaoqin',
+  RFCD: 'gao_xiaoqin',
+  RFCP: 'cai_chenggong',
   RFAD: 'qi_tongwei',
   RFAP: 'gao_yuliang',
 };
