@@ -1,6 +1,6 @@
 // src/routes/home.ts
 import { h } from '../dom/h';
-import { COPY } from '../content/copy';
+import { COPY, REPO_HANDLE, REPO_URL } from '../content/copy';
 
 export function renderHome(): HTMLElement {
   const c = COPY.home;
@@ -57,8 +57,18 @@ export function renderHome(): HTMLElement {
     h('span', { className: 'stamp stamp-reviewed' }, '已 · 阅'),
   );
 
-  // 底注
+  // 底注 + 开源归档
+  const sourceLink = h('a', {
+    className: 'source-credit',
+    href: REPO_URL,
+    target: '_blank',
+    rel: 'noopener noreferrer',
+  },
+    h('span', { className: 'source-tag' }, '档案开源'),
+    h('span', { className: 'source-repo' }, REPO_HANDLE),
+  );
   const footer = h('div', { className: 'home-footer' },
+    sourceLink,
     h('div', { className: 'footnote' }, c.footnote),
   );
 

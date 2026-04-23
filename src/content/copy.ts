@@ -3,6 +3,9 @@
 export const ORG_NAME = '汉东省人格档案室';
 export const ORG_FULL = '汉东省人格档案室 · 干部作风评估处';
 
+export const REPO_URL = 'https://github.com/EASYGOING45/handong-archive';
+export const REPO_HANDLE = 'EASYGOING45/handong-archive';
+
 export const COPY = {
   home: {
     header: ORG_NAME,

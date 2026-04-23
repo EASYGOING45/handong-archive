@@ -9,7 +9,7 @@ import { QUESTIONS } from '../content/questions';
 import { CHARACTERS } from '../content/characters';
 import { pretextPara } from '../dom/pretext-para';
 import { downloadLongImage } from '../share/longimage';
-import { ORG_FULL } from '../content/copy';
+import { ORG_FULL, REPO_HANDLE, REPO_URL } from '../content/copy';
 import type { Answer, Character } from '../engine/types';
 
 const PERSONA_FONT =
@@ -113,11 +113,21 @@ export function renderResult(payloadWithMaybePrefix: string): HTMLElement {
     h('a', { href: '#/', className: 'btn-secondary' }, '再测一次'),
   );
 
+  const sourceCredit = h('a', {
+    className: 'source-credit source-credit-result',
+    href: REPO_URL,
+    target: '_blank',
+    rel: 'noopener noreferrer',
+  },
+    h('span', { className: 'source-tag' }, '档案开源'),
+    h('span', { className: 'source-repo' }, REPO_HANDLE),
+  );
+
   mount(root, h('div', {},
     header, photo, infoTable, quote, bars,
     h('h2', {}, '人格长文'),
     container,
-    neighbors, actions));
+    neighbors, actions, sourceCredit));
   return root;
 }
 
